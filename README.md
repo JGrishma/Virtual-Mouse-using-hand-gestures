@@ -1,8 +1,6 @@
-# Virtual-Mouse-using-hand-gestures
 # 🖐️ Virtual Mouse Using Hand Gestures
 
-Control your computer mouse using hand gestures through your webcam — no physical mouse needed!
-
+Control your computer mouse using hand gestures through your webcam — no physical mouse needed!  
 Built with Python, OpenCV, and MediaPipe.
 
 ---
@@ -16,18 +14,25 @@ Built with Python, OpenCV, and MediaPipe.
 
 ## ⚙️ Installation
 
-1. Clone the repository
-```
-git clone https://github.com/JGrishma/Virtual-Mouse-using-hand-gestures
-cd virtual-mouse
-```
+**1. Download the code**
 
-2. Install required libraries
+- Click the green **`<> Code`** button at the top of this page
+- Select **`Download ZIP`**
+- Extract the ZIP file to a folder (e.g. `C:\Users\YourName\Desktop\VirtualMouse`)
+
+**2. Open the folder in PowerShell**
+
+- Open the extracted folder
+- Click the address bar at the top, type `powershell` and press Enter
+
+**3. Install required libraries**
+
 ```
 py -m pip install opencv-python mediapipe pyautogui numpy pycaw comtypes screen-brightness-control
 ```
 
-3. Run the project
+**4. Run the project**
+
 ```
 py virtual_mouse.py
 ```
@@ -54,12 +59,12 @@ py virtual_mouse.py
 
 ## 🛠️ Technologies Used
 
-- [Python](https://python.org)
-- [OpenCV](https://opencv.org) — webcam feed
-- [MediaPipe](https://mediapipe.dev) — hand tracking
-- [PyAutoGUI](https://pyautogui.readthedocs.io) — mouse control
-- [pycaw](https://github.com/AndreMiras/pycaw) — volume control
-- [screen-brightness-control](https://github.com/Crozzers/screen-brightness-control) — brightness control
+- **Python**
+- **OpenCV** — webcam feed
+- **MediaPipe** — hand tracking
+- **PyAutoGUI** — mouse control
+- **pycaw** — volume control
+- **screen-brightness-control** — brightness control
 
 ---
 
