@@ -18,7 +18,7 @@ Built with Python, OpenCV, and MediaPipe.
 
 1. Clone the repository
 ```
-git clone https://github.com/JGrishma/virtual_mouse.git
+git clone https://github.com/JGrishma/Virtual-Mouse-using-hand-gestures
 cd virtual-mouse
 ```
 
